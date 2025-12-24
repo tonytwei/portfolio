@@ -9,11 +9,11 @@
 		if (!nodes.length) return;
 
 		// sort by document position (top-to-bottom)
-		nodes.sort((a, b) => {
-			const ta = a.getBoundingClientRect().top + window.scrollY;
-			const tb = b.getBoundingClientRect().top + window.scrollY;
-			return ta - tb;
-		});
+		// nodes.sort((a, b) => {
+		// 	const ta = a.getBoundingClientRect().top + window.scrollY;
+		// 	const tb = b.getBoundingClientRect().top + window.scrollY;
+		// 	return ta - tb;
+		// });
 
 		nodes.forEach((el, i) => {
 			setTimeout(() => el.classList.add('in'), i * STAGGER);
