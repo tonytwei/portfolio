@@ -15,13 +15,6 @@
 			} else {
 				isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 			}
-
-			// Apply the dark class
-			if (isDark) {
-				document.documentElement.classList.add('dark');
-			} else {
-				document.documentElement.classList.remove('dark');
-			}
 		}
 	});
 
@@ -69,11 +62,8 @@
 					class="h-5 pt-px"
 					aria-label="Toggle dark mode"
 				>
-					{#if isDark}
-						<Fa icon={faMoon} class="h-8" />
-					{:else}
-						<Fa icon={faSun} class="h-8" />
-					{/if}
+					<Fa icon={faSun} class="h-8 block dark:hidden" />
+					<Fa icon={faMoon} class="h-8 hidden dark:block" />
 				</button>
 			</nav>
 		</div>
