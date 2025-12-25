@@ -2,18 +2,11 @@
 	import Header from '$lib/Header.svelte';
 	import { onMount } from 'svelte';
 
+	// Staggered animation for elements with the "animate" class
 	const STAGGER = 100; // milliseconds between items
-
 	onMount(() => {
 		const nodes = Array.from(document.querySelectorAll('.animate'));
 		if (!nodes.length) return;
-
-		// sort by document position (top-to-bottom)
-		// nodes.sort((a, b) => {
-		// 	const ta = a.getBoundingClientRect().top + window.scrollY;
-		// 	const tb = b.getBoundingClientRect().top + window.scrollY;
-		// 	return ta - tb;
-		// });
 
 		nodes.forEach((el, i) => {
 			setTimeout(() => el.classList.add('in'), i * STAGGER);
