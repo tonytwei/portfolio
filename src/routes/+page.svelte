@@ -17,15 +17,23 @@
 <Header />
 
 <div class="mx-auto max-w-screen-sm px-6">
-	<div class="space-y-8">
-		<section id="about" class="scroll-mt-20 pt-16">
-			<h2 class="animate">about section</h2>
+	<div class="space-y-10">
+		<section id="about" class="scroll-mt-20 pt-14 flex flex-col gap-4">
+			<div class="animate font-semibold text-lg">
+				<h1>Tony Wei</h1>
+				<h1>Software Engineer</h1>
+			</div>
 			<p class="animate">
-				Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
-				pellentesque
+				I am a software engineer, ui/ux designer, product planner, problem solver, mentor, forever student, minimalist, and eternal optimist.
+			</p>
+			<p class="animate">
+				I love to both build and break things. I am motivated by challenging projects with self-guided research and dynamic problem solving. My true passion is crafting creative front end designs with unique takes on color, typography and motion.
+			</p>
+			<p class="animate">
+				This is my personal space, where I share my work and projects. I also write interactive blog posts about engineering and design.
 			</p>
 		</section>
-		<section id="work" class="scroll-mt-20 pt-16">
+		<section id="work" class="scroll-mt-20 pt-14">
 			<h1 class="animate">work section</h1>
 			<p class="animate">
 				Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
@@ -85,7 +93,7 @@
 				aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
 			</p>
 		</section>
-		<section id="education" class="scroll-mt-20 pt-16">
+		<section id="education" class="scroll-mt-20 pt-14">
 			<h2 class="animate">education section</h2>
 			<p class="animate">
 				Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
@@ -145,7 +153,7 @@
 				aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
 			</p>
 		</section>
-		<section id="projects" class="scroll-mt-20 pt-16">
+		<section id="projects" class="scroll-mt-20 pt-14">
 			<h2 class="animate">projects section</h2>
 			<p class="animate">
 				Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
