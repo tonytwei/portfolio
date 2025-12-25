@@ -9,9 +9,6 @@
 	<g
 		transform={`translate(50, 50)`}
 	>
-		<!-- background disc -->
-		<circle cx="0" cy="0" r="30" class="fill-zinc-900 dark:fill-zinc-100" />
-
 		<!-- square -->
 		<g transform="rotate(240) translate(12)">
 			<rect
