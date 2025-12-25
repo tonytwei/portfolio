@@ -1,32 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Dark favicon generated from AnimatedLogo.svelte (inverted colors) -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="64" height="64" role="img" aria-hidden="false">
-  <!-- center group, static (no animation) -->
-  <g transform="translate(50,50) scale(1.2) rotate(0)">
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+	<g transform="translate(50, 50) scale(1.2)">
+		<!-- square -->
+		<g transform="rotate(240) translate(12)">
+			<rect
+				x="-21"
+				y="-21"
+				width="40"
+				height="40"
+				rx="3"
+				fill="#f4f4f5"
+				stroke="#000000"
+				stroke-width="3"
+			/>
+		</g>
 
-    <!-- square (bottom) -->
-    <g transform="rotate(240) translate(12)">
-      <rect x="-21" y="-21" width="40" height="40" rx="3" fill="#f4f4f5" stroke="#0f172a" stroke-width="3" />
-    </g>
+		<!-- triangle -->
+		<g transform="rotate(0) translate(12)">
+			<polygon points="28,0 -14,-24.249 -14,24.249" fill="#f4f4f5" />
+		</g>
+		<g transform="rotate(0) translate(12)">
+			<polygon
+				points="28,0 -14,-24.249 -14,24.249"
+				fill="none"
+				stroke="#000000"
+				stroke-width="3"
+				stroke-linejoin="round"
+			/>
+		</g>
 
-    <!-- triangle fill -->
-    <g transform="rotate(0) translate(12)">
-      <polygon points="28,0 -14,-24.249 -14,24.249" fill="#f4f4f5" />
-    </g>
-
-    <!-- triangle stroke -->
-    <g transform="rotate(0) translate(12)">
-      <polygon points="28,0 -14,-24.249 -14,24.249" fill="none" stroke="#0f172a" stroke-width="3" stroke-linejoin="round" />
-    </g>
-
-    <!-- circle fill -->
-    <g transform="rotate(120) translate(12)">
-      <circle cx="0" cy="0" r="21" fill="#f4f4f5" />
-    </g>
-
-    <!-- circle stroke -->
-    <g transform="rotate(120) translate(12)">
-      <circle cx="0" cy="0" r="21" fill="none" stroke="#0f172a" stroke-width="3" />
-    </g>
-  </g>
+		<!-- circle -->
+		<g transform="rotate(120) translate(12)">
+			<circle cx="0" cy="0" r="21" fill="#f4f4f5" />
+		</g>
+		<g transform="rotate(120) translate(12)">
+			<circle
+				cx="0"
+				cy="0"
+				r="21"
+				fill="none"
+				stroke="#000000"
+				stroke-width="3"
+			/>
+		</g>
+	</g>
 </svg>
