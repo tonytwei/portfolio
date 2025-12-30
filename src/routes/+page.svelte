@@ -33,68 +33,8 @@
 				This is my personal space, where I share my work and projects. I also write interactive blog posts about engineering and design.
 			</p>
 		</section>
-		<section id="work" class="scroll-mt-20 pt-14">
-			<h1 class="animate">work section</h1>
-			<p class="animate">
-				Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
-				pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu
-				aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-				Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class
-				aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. Lorem
-				ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
-				pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu
-				aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-				Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class
-				aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. Lorem
-				ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
-				pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu
-				aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-				Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class
-				aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. Lorem
-				ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
-				pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu
-				aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-				Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class
-				aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. Lorem
-				ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
-				pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu
-				aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-				Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class
-				aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. Lorem
-				ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
-				pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu
-				aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-				Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class
-				aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. Lorem
-				ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
-				pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu
-				aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-				Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class
-				aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. Lorem
-				ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
-				pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu
-				aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-				Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class
-				aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. Lorem
-				ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
-				pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu
-				aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-				Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class
-				aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. Lorem
-				ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
-				pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu
-				aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-				Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class
-				aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. Lorem
-				ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
-				pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu
-				aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-				Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class
-				aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-			</p>
-		</section>
-		<section id="education" class="scroll-mt-20 pt-14">
-			<h2 class="animate">education section</h2>
+		<section id="experience" class="scroll-mt-20 pt-14">
+			<h1 class="animate">experience section</h1>
 			<p class="animate">
 				Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
 				pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu

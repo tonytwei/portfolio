@@ -40,30 +40,36 @@
 <div class="backdrop-blur-sm sticky top-0 z-10">
 	<div class="mx-auto max-w-screen-sm px-6">
 		<div class="flex items-center justify-between py-5">
-			<button type="button" onclick={() => scrollToSection('about')} aria-label="Go to about">
+			<button type="button" onclick={() => scrollToSection('about')} aria-label="Go to about" class="cursor-pointer">
 				<Logo class="h-8 w-8" />
 			</button>
-			<nav class="hidden md:flex items-center gap-4 text-sm">
-				<button type="button" onclick={() => scrollToSection('about')} class="hover:underline"
+			<nav class="hidden md:flex items-center gap-0.5">
+				<button
+					type="button"
+					onclick={() => scrollToSection('about')}
+					class="hover:text-zinc-900 hover:dark:text-zinc-50 hover:bg-black/5 hover:dark:bg-white/15 rounded-md px-2 py-0.5 transition-[background-color] duration-300 cursor-pointer"
 					>about</button
 				>
-				<button type="button" onclick={() => scrollToSection('work')} class="hover:underline"
-					>work</button
+				<button
+					type="button"
+					onclick={() => scrollToSection('experience')}
+					class="hover:text-zinc-900 hover:dark:text-zinc-50 hover:bg-black/5 hover:dark:bg-white/15 rounded-md px-2 py-0.5 transition-[background-color] duration-300 cursor-pointer"
+					>experience</button
 				>
-				<button type="button" onclick={() => scrollToSection('education')} class="hover:underline"
-					>education</button
-				>
-				<button type="button" onclick={() => scrollToSection('projects')} class="hover:underline"
+				<button
+					type="button"
+					onclick={() => scrollToSection('projects')}
+					class="hover:text-zinc-900 hover:dark:text-zinc-50 hover:bg-black/5 hover:dark:bg-white/15 rounded-md px-2 py-0.5 transition-[background-color] duration-300 cursor-pointer"
 					>projects</button
 				>
 				<button
 					type="button"
 					onclick={toggleDarkMode}
-					class="h-5 pt-px"
+					class="h-7 pt-px hover:text-zinc-900 hover:dark:text-zinc-50 hover:bg-black/5 hover:dark:bg-white/15 rounded-md px-2 py-0.5 transition-[background-color] duration-300 cursor-pointer"
 					aria-label="Toggle dark mode"
 				>
-					<Fa icon={faSun} class="h-8 block dark:hidden" />
-					<Fa icon={faMoon} class="h-8 hidden dark:block" />
+					<Fa icon={faSun} size="sm" color="#18181b" class="block dark:hidden" />
+					<Fa icon={faMoon} size="sm" color="#fafafa" class="hidden dark:block" />
 				</button>
 			</nav>
 		</div>
