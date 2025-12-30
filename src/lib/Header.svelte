@@ -40,7 +40,12 @@
 <div class="backdrop-blur-xs sticky top-0 z-10">
 	<div class="mx-auto max-w-screen-sm px-6">
 		<div class="flex items-center justify-between py-5">
-			<button type="button" onclick={() => scrollToSection('about')} aria-label="Go to about" class="cursor-pointer">
+			<button
+				type="button"
+				onclick={() => scrollToSection('about')}
+				aria-label="Go to about"
+				class="cursor-pointer"
+			>
 				<Logo class="h-8 w-8" />
 			</button>
 			<nav class="hidden md:flex items-center gap-0.5">
@@ -65,11 +70,11 @@
 				<button
 					type="button"
 					onclick={toggleDarkMode}
-					class="h-7 pt-px hover:bg-black/5 hover:dark:bg-white/15 rounded-md px-2 py-0.5 transition-[background-color] duration-300 cursor-pointer"
+					class="flex items-center justify-center h-7 w-[34px] px-2 py-0.5 hover:bg-black/5 hover:dark:bg-white/15 rounded-md transition-[background-color] duration-300 cursor-pointer"
 					aria-label="Toggle dark mode"
 				>
 					<Fa icon={faSun} size="sm" color="#18181b" class="block dark:hidden" />
-					<Fa icon={faMoon} size="sm" color="#fafafa" class="hidden dark:block" />
+					<Fa icon={faMoon} size="sm" color="#fafafa" translateX="0.1" translateY="0.05" class="hidden dark:block" />
 				</button>
 			</nav>
 		</div>
