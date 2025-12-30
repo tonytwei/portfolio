@@ -34,7 +34,8 @@
 					items-center
 					gap-2.5
 					px-3
-					py-1.5
+					pt-1
+					pb-1.5
 					rounded-md
 					border
 					border-zinc-900/50
@@ -49,9 +50,9 @@
 					cursor-pointer"
 				aria-label="Back to top"
 			>
-				<Fa icon={faAnglesUp} size="sm" color="#18181b" class="block dark:hidden" />
-				<Fa icon={faAnglesUp} size="sm" color="#fafafa" class="hidden dark:block" />
-				<span class="text-sm">Back to top</span>
+				<Fa icon={faAnglesUp} size="sm" color="#18181b" translateY="0.12" class="block dark:hidden" />
+				<Fa icon={faAnglesUp} size="sm" color="#fafafa" translateY="0.12" class="hidden dark:block" />
+				<span class="text-sm">return</span>
 			</button>
 		</div>
 	</div>

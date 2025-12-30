@@ -19,8 +19,8 @@
 
 <div class="mx-auto max-w-screen-sm px-6">
 	<BackToTop />
-	<div class="space-y-10">
-		<section id="about" class="scroll-mt-20 pt-14 flex flex-col gap-4">
+	<div class="space-y-11">
+		<section id="about" class="scroll-mt-20 pt-13 flex flex-col gap-4">
 			<div class="animate font-semibold text-lg">
 				<h1>Tony Wei</h1>
 				<h1>Software Engineer</h1>
@@ -35,7 +35,7 @@
 				This is my personal space, where I share my work and projects. I also write interactive blog posts about engineering and design.
 			</p>
 		</section>
-		<section id="experience" class="scroll-mt-20 pt-14">
+		<section id="experience" class="scroll-mt-20 pt-13">
 			<h1 class="animate">experience section</h1>
 			<p class="animate">
 				Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
@@ -95,7 +95,7 @@
 				aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
 			</p>
 		</section>
-		<section id="projects" class="scroll-mt-20 pt-14">
+		<section id="projects" class="scroll-mt-20 pt-13">
 			<h2 class="animate">projects section</h2>
 			<p class="animate">
 				Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
