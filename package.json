@@ -33,6 +33,7 @@
 	},
 	"dependencies": {
 		"@fortawesome/free-regular-svg-icons": "^7.1.0",
+		"@fortawesome/free-solid-svg-icons": "^7.1.0",
 		"amplify-adapter": "^1.2.3",
 		"svelte-fa": "^4.0.4"
 	}

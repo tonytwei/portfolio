@@ -1,5 +1,6 @@
 <script>
 	import Header from '$lib/Header.svelte';
+	import BackToTop from '$lib/BackToTop.svelte';
 	import { onMount } from 'svelte';
 
 	// Staggered animation for elements with the "animate" class
@@ -17,6 +18,7 @@
 <Header />
 
 <div class="mx-auto max-w-screen-sm px-6">
+	<BackToTop />
 	<div class="space-y-10">
 		<section id="about" class="scroll-mt-20 pt-14 flex flex-col gap-4">
 			<div class="animate font-semibold text-lg">
