@@ -73,7 +73,7 @@
 					class="flex items-center justify-center h-7 w-[34px] px-2 py-0.5 hover:bg-black/5 hover:dark:bg-white/15 rounded-md transition-[background-color] duration-300 cursor-pointer"
 					aria-label="Toggle dark mode"
 				>
-					<Fa icon={faSun} size="sm" color="#18181b" class="block dark:hidden" />
+					<Fa icon={faSun} size="sm" color="#18181b" translateY="0.05" class="block dark:hidden" />
 					<Fa icon={faMoon} size="sm" color="#fafafa" translateX="0.1" translateY="0.05" class="hidden dark:block" />
 				</button>
 			</nav>
