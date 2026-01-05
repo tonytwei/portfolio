@@ -50,8 +50,8 @@
 					cursor-pointer"
 				aria-label="Back to top"
 			>
-				<Fa icon={faAnglesUp} size="sm" color="#18181b" translateY="0.12" class="block dark:hidden" />
-				<Fa icon={faAnglesUp} size="sm" color="#fafafa" translateY="0.12" class="hidden dark:block" />
+				<Fa icon={faAnglesUp} size="sm" color="#18181b" translateY="0.11" class="block dark:hidden" />
+				<Fa icon={faAnglesUp} size="sm" color="#fafafa" translateY="0.11" class="hidden dark:block" />
 				<span class="text-sm">return</span>
 			</button>
 		</div>
