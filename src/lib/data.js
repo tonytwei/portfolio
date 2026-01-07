@@ -7,6 +7,7 @@ import unimelbLogo from '$lib/assets/unimelb_logo.jpeg';
 import unilodgeLogo from '$lib/assets/unilodge_logo.jpeg';
 import australianRedCrossLogo from '$lib/assets/australian_red_cross_logo.jpeg';
 import mentalHealthFirstAidLogo from '$lib/assets/mental_health_first_aid_logo.jpeg';
+import vicGovLogo from '$lib/assets/vic_gov_logo.png';
 
 export const experiences = [
 	{
@@ -142,5 +143,11 @@ export const certifications = [
 		image: mentalHealthFirstAidLogo,
 		institution: 'Mental Health First Aid Australia',
 		expiry: 'Apr 2026'
+	},
+	{
+		name: 'Working With Children Check',
+		image: vicGovLogo,
+		institution: 'Victoria State Government',
+		expiry: 'Jan 2028'
 	}
 ];
