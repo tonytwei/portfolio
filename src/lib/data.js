@@ -151,3 +151,51 @@ export const certifications = [
 		expiry: 'Jan 2028'
 	}
 ];
+
+export const projects = [
+	{
+		name: 'Budget Transaction Sync',
+		shortDescription: 'Automated transaction syncing between Up Bank and Actual Budget using AWS Lambda and Webhooks.',
+		description:
+			'Automatically syncs Up Bank transactions to Actual Budget using AWS Lambda webhooks. Each transaction triggers a Lambda function that retrieves and adds transaction details to Actual Budget for budgeting across web and mobile.',
+		technologies: ['AWS Lambda', 'Node.js', 'Webhooks', 'REST API'],
+		images: [placeholderImage, placeholderImage, placeholderImage, placeholderImage],
+		githubUrl: 'https://github.com/tonytwei/upbank-actualbudget-sync'
+	},
+	{
+		name: 'Portfolio Website',
+		shortDescription: 'Modern portfolio website featuring responsive design.',
+		description:
+			'A simple and elegant website built using SvelteKit and Tailwind CSS. It showcases my projects and experience with a focus on performance and user experience, featuring responsive design and smooth animations.',
+		technologies: ['SvelteKit', 'Tailwind CSS', 'Vite', 'JavaScript'],
+		images: [placeholderImage, placeholderImage, placeholderImage, placeholderImage],
+		githubUrl: 'https://github.com/tonytwei/portfolio'
+	},
+	{
+		name: 'Algorithms Learning Platform',
+		shortDescription: 'Interactive learning platform used to teach data structures and algorithms.',
+		description:
+			'A multichoice learning platform used for teaching workshops. Features OAuth authentication for user management and serves as an educational resource for learning algorithms and data structures.',
+		technologies: ['Next.js', 'React', 'NextAuth', 'MongoDB','TypeScript'],
+		images: [placeholderImage, placeholderImage, placeholderImage, placeholderImage],
+		githubUrl: 'https://github.com/tonytwei/algoquiz'
+	},
+	{
+		name: 'Environment Monitor',
+		shortDescription: 'Environmental monitoring dashboard with Raspberry Pi sensor.',
+		description:
+			'Full-stack environmental monitoring platform collecting real-time sensor data from a Raspberry Pi attachment. Tracks temperature, pressure, humidity, and particulate matter with database storage and graphical visualisations.',
+		technologies: ['SvelteKit', 'Flask', 'MySQL', 'Docker', 'JavaScript', 'Python'],
+		images: [placeholderImage, placeholderImage, placeholderImage, placeholderImage],
+		githubUrl: 'https://github.com/tonytwei/environment-monitor'
+	},
+	{
+		name: 'Tetris in Java',
+		shortDescription: 'Classic Tetris game built using a graphics engine.',
+		description:
+			'Tetris recreation in Java using a lightweight graphics engine. Implements Super Rotation System (SRS) for authentic piece rotation and wall kicks.',
+		technologies: ['Java'],
+		images: [placeholderImage, placeholderImage, placeholderImage, placeholderImage],
+		githubUrl: 'https://github.com/tonytwei/java-tetris'
+	}
+];

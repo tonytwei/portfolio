@@ -1,12 +1,15 @@
 <script>
 	import Header from '$lib/Header.svelte';
 	import BackToTop from '$lib/BackToTop.svelte';
-	import { experiences, education, certifications } from '$lib/data.js';
+	import ImageCarousel from '$lib/ImageCarousel.svelte';
+	import { experiences, education, certifications, projects } from '$lib/data.js';
 	import { onMount } from 'svelte';
 	import Fa from 'svelte-fa';
 	import { faAngleDown, faAngleUp } from '@fortawesome/free-solid-svg-icons';
 
-	let showExperienceDetails = $state(true);
+	const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
+	let showExperienceDetails = $state(!isMobile);
+	let showProjectDetails = $state(!isMobile);
 
 	// Staggered animation for elements with the "animate" class
 	const STAGGER = 100; // milliseconds between items
@@ -54,16 +57,37 @@
 					onkeydown={(e) => e.key === 'Enter' && (showExperienceDetails = !showExperienceDetails)}
 				>
 					<h2 class="font-semibold text-lg">Experience</h2>
-					<div
-						class="flex items-center justify-center h-7"	
-						aria-label="Toggle experience details"
-					>
+					<div class="flex items-center justify-center h-7" aria-label="Toggle experience details">
 						{#if showExperienceDetails}
-							<Fa icon={faAngleDown} translateX="-0.05" size="sm" color="#18181b" class="block dark:hidden" />
-							<Fa icon={faAngleDown} translateX="-0.05" size="sm" color="#fafafa" class="hidden dark:block" />
+							<Fa
+								icon={faAngleDown}
+								translateX="-0.05"
+								size="sm"
+								color="#18181b"
+								class="block dark:hidden"
+							/>
+							<Fa
+								icon={faAngleDown}
+								translateX="-0.05"
+								size="sm"
+								color="#fafafa"
+								class="hidden dark:block"
+							/>
 						{:else}
-							<Fa icon={faAngleUp} translateX="-0.05" size="sm" color="#18181b" class="block dark:hidden" />
-							<Fa icon={faAngleUp} translateX="-0.05" size="sm" color="#fafafa" class="hidden dark:block" />
+							<Fa
+								icon={faAngleUp}
+								translateX="-0.05"
+								size="sm"
+								color="#18181b"
+								class="block dark:hidden"
+							/>
+							<Fa
+								icon={faAngleUp}
+								translateX="-0.05"
+								size="sm"
+								color="#fafafa"
+								class="hidden dark:block"
+							/>
 						{/if}
 					</div>
 				</div>
@@ -180,65 +204,87 @@
 				</div>
 			{/if}
 		</section>
-		<section id="projects" class="scroll-mt-20 pt-13">
-			<h2 class="animate">projects section</h2>
-			<p class="animate">
-				Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
-				pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu
-				aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-				Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class
-				aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. Lorem
-				ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
-				pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu
-				aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-				Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class
-				aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. Lorem
-				ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
-				pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu
-				aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-				Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class
-				aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. Lorem
-				ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
-				pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu
-				aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-				Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class
-				aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. Lorem
-				ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
-				pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu
-				aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-				Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class
-				aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. Lorem
-				ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
-				pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu
-				aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-				Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class
-				aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. Lorem
-				ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
-				pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu
-				aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-				Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class
-				aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. Lorem
-				ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
-				pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu
-				aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-				Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class
-				aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. Lorem
-				ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
-				pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu
-				aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-				Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class
-				aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. Lorem
-				ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
-				pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu
-				aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-				Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class
-				aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. Lorem
-				ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
-				pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu
-				aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-				Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class
-				aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-			</p>
+		<section id="projects" class="scroll-mt-20 pt-13 flex flex-col gap-6">
+			<div
+				class="animate flex items-center justify-between cursor-pointer hover:bg-black/5 hover:dark:bg-white/15 rounded-md px-2.5 py-3.5 transition-[background-color] duration-300"
+				onclick={() => (showProjectDetails = !showProjectDetails)}
+				role="button"
+				tabindex="0"
+				onkeydown={(e) => e.key === 'Enter' && (showProjectDetails = !showProjectDetails)}
+			>
+				<h2 class="font-semibold text-lg">Projects</h2>
+				<div class="flex items-center justify-center h-7" aria-label="Toggle project details">
+					{#if showProjectDetails}
+						<Fa
+							icon={faAngleDown}
+							translateX="-0.05"
+							size="sm"
+							color="#18181b"
+							class="block dark:hidden"
+						/>
+						<Fa
+							icon={faAngleDown}
+							translateX="-0.05"
+							size="sm"
+							color="#fafafa"
+							class="hidden dark:block"
+						/>
+					{:else}
+						<Fa
+							icon={faAngleUp}
+							translateX="-0.05"
+							size="sm"
+							color="#18181b"
+							class="block dark:hidden"
+						/>
+						<Fa
+							icon={faAngleUp}
+							translateX="-0.05"
+							size="sm"
+							color="#fafafa"
+							class="hidden dark:block"
+						/>
+					{/if}
+				</div>
+			</div>
+			<div class="flex flex-col gap-6">
+				{#each projects as project (project.name)}
+					<div class="animate flex flex-col gap-2 pl-1">
+						<div class="flex gap-3">
+							<div class="flex-1 flex flex-col gap-2">
+								<h3 class="font-semibold text-[15px]">{project.name}</h3>
+								<p class="text-sm opacity-80 font-light leading-relaxed">
+									{showProjectDetails ? project.description : project.shortDescription}
+								</p>
+								{#if project.githubUrl && showProjectDetails}
+									<a
+										href={project.githubUrl}
+										target="_blank"
+										rel="noopener noreferrer"
+										class="text-sm opacity-80 hover:opacity-100 transition-opacity underline decoration-dotted underline-offset-2"
+									>
+										View on GitHub →
+									</a>
+								{/if}
+							</div>
+							{#if project.images && project.images.length > 0 && showProjectDetails}
+								<div class="hidden md:flex shrink-0 w-64">
+									<ImageCarousel images={project.images} />
+								</div>
+							{/if}
+						</div>
+						{#if project.technologies && project.technologies.length > 0}
+							<div class="flex flex-wrap gap-2 mt-1">
+								{#each project.technologies as tech}
+									<span class="text-xs px-2 py-1 rounded-md bg-black/5 dark:bg-white/10 opacity-80">
+										{tech}
+									</span>
+								{/each}
+							</div>
+						{/if}
+					</div>
+				{/each}
+			</div>
 		</section>
 	</div>
 </div>
