@@ -29,19 +29,19 @@
 	<BackToTop />
 	<div class="space-y-11">
 		<section id="about" class="scroll-mt-20 pt-13 flex flex-col gap-4">
-			<div class="animate font-semibold text-lg pl-2.5">
+			<div class="animate font-semibold text-lg">
 				<h1>Tony Wei</h1>
 				<h1>Software Engineer</h1>
 			</div>
-			<p class="animate pl-2">
+			<p class="animate">
 				A passionate developer focused on creating elegant solutions to complex problems.
 				Experienced in full-stack development, UI/UX design, and building user-centric applications.
 			</p>
-			<p class="animate pl-2">
+			<p class="animate">
 				Driven by curiosity and a love for learning new technologies. Always exploring innovative
 				approaches to software development and design.
 			</p>
-			<p class="animate pl-2">
+			<p class="animate">
 				Welcome to my portfolio where I showcase my work, projects, and share insights about
 				technology and software engineering.
 			</p>
@@ -50,7 +50,7 @@
 			<!-- Work Experience -->
 			<div class="flex flex-col gap-3">
 				<div
-					class="animate flex items-center justify-between cursor-pointer hover:bg-black/5 hover:dark:bg-white/15 rounded-md px-2.5 py-3.5 transition-[background-color] duration-300"
+					class="animate flex items-center justify-between cursor-pointer hover:bg-black/5 hover:dark:bg-white/15 rounded-md px-4 py-3.5 transition-[background-color] duration-300"
 					onclick={() => (showExperienceDetails = !showExperienceDetails)}
 					role="button"
 					tabindex="0"
@@ -206,7 +206,7 @@
 		</section>
 		<section id="projects" class="scroll-mt-20 pt-13 flex flex-col gap-6">
 			<div
-				class="animate flex items-center justify-between cursor-pointer hover:bg-black/5 hover:dark:bg-white/15 rounded-md px-2.5 py-3.5 transition-[background-color] duration-300"
+				class="animate flex items-center justify-between cursor-pointer hover:bg-black/5 hover:dark:bg-white/15 rounded-md px-4 py-3.5 transition-[background-color] duration-300"
 				onclick={() => (showProjectDetails = !showProjectDetails)}
 				role="button"
 				tabindex="0"
