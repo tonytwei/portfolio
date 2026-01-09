@@ -8,7 +8,8 @@ import unilodgeLogo from '$lib/assets/logos/unilodge.jpeg';
 import australianRedCrossLogo from '$lib/assets/logos/australian_red_cross.jpeg';
 import mentalHealthFirstAidLogo from '$lib/assets/logos/mental_health_first_aid.jpeg';
 import vicGovLogo from '$lib/assets/logos/vic_gov.png';
-import algorithmsLearningPlatform from '$lib/assets/projects/algorithms_learning_platform.png';
+import algorithmsLearningPlatform0 from '$lib/assets/projects/algorithms_learning_platform_0.png';
+import algorithmsLearningPlatform1 from '$lib/assets/projects/algorithms_learning_platform_1.png';
 import budgetTransactionSync from '$lib/assets/projects/budget_transaction_sync.png';
 import environmentMonitor from '$lib/assets/projects/environment_monitor.png';
 import tetrisInJava from '$lib/assets/projects/tetris.png';
@@ -181,7 +182,7 @@ export const projects = [
 		description:
 			'A multichoice learning platform used for teaching workshops. Features OAuth authentication for user management and serves as an educational resource for learning algorithms and data structures.',
 		technologies: ['Next.js', 'React', 'NextAuth', 'MongoDB','TypeScript'],
-		images: [algorithmsLearningPlatform],
+		images: [algorithmsLearningPlatform0, algorithmsLearningPlatform1],
 		githubUrl: 'https://github.com/tonytwei/algoquiz'
 	},
 	{
@@ -203,3 +204,8 @@ export const projects = [
 		githubUrl: 'https://github.com/tonytwei/java-tetris'
 	}
 ];
+
+export const socials = {
+	github: 'https://github.com/tonytwei',
+	linkedin: 'https://www.linkedin.com/in/tonytwei'
+};
